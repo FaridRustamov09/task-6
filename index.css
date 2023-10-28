@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+h1{
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%; 
+    margin-bottom: 133px;
+}
+h2{
+    color: #1E4681;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; 
+}
+div{
+padding: 178px 0 214px 122px;
+}
+ul{
+display: flex;
+}
+li{
+margin-right: 122px;
+list-style-type: none;
+}
+@media screen and (max-width:1024px){
+div{
+padding: 94px 0 127px 71px;
+}
+h1{
+ font-size: 32px;
+ margin-bottom: 70px;
+}
+h2{
+font-size: 15px;
+}
+li{
+font-size: 11px;
+margin-right: 46px;
+}
+}
+@media screen and (max-width:768px) {
+div{
+padding:76px 0 73px 36px ;
+}
+h1{
+font-size:26px;
+margin-bottom: 17px;
+}
+ul{
+flex-direction: column;
+}
+h2{
+font-size: 12px;
+}
+li{
+font-size: 10px;
+margin-bottom: 10px;
+}
+}
